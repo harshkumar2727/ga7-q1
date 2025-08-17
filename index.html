@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Q3 2025 Earnings Report</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/theme/black.min.css" id="theme">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/monokai.min.css">
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h1>Quarterly Earnings Report</h1>
+                <h2>Q3 2025 Financial Results</h2>
+                <p>
+                    <small>
+                        Technical Consultant<br>
+                        <a href="mailto:23ds3000170@ds.study.iitm.ac.in">23ds3000170@ds.study.iitm.ac.in</a>
+                    </small>
+                </p>
+                <aside class="notes">
+                    Welcome everyone to the Q3 2025 earnings call. Today, we'll be discussing our financial performance and key business highlights for the past quarter.
+                </aside>
+            </section>
+
+            <section>
+                <h2>Q3 Financial Highlights</h2>
+                <ul>
+                    <li class="fragment"><strong>Revenue:</strong> $1.2 Billion (+15% YoY)</li>
+                    <li class="fragment"><strong>Net Income:</strong> $250 Million (+20% YoY)</li>
+                    <li class="fragment"><strong>Earnings Per Share (EPS):</strong> $1.75 (+22% YoY)</li>
+                </ul>
+                <aside class="notes">
+                    Let's start with the key performance indicators. We've had a very strong quarter. Revenue is up 15% year-over-year, driving a net income increase of 20%, which translates to an impressive EPS of $1.75.
+                </aside>
+            </section>
+
+            <section data-markdown>
+                <textarea data-template>
+                    ## Market Performance Analysis
+                    - Our growth outpaced the industry average of 8%.
+                    - Significant market share gains in the **fintech services sector**.
+                    - **Strategic Partnership Alpha** launched successfully, contributing 5% to total revenue.
+                    > The results reflect our team's commitment to innovation and customer satisfaction.
+                </textarea>
+                <aside class="notes">
+                    In this slide, written in Markdown, we see our performance in a broader market context. We are not just growing; we are outperforming our competitors.
+                </aside>
+            </section>
+
+            <section>
+                <h2>Technical: Risk Analysis Script</h2>
+                <p>Python snippet for calculating portfolio volatility.</p>
+                <pre><code class="language-python" data-line-numbers="1-5|7-9">
+import numpy as np
+
+def calculate_volatility(returns):
+    """Calculates the annualized volatility of a portfolio."""
+    daily_volatility = np.std(returns)
+    annualized_volatility = daily_volatility * np.sqrt(252)
+    return annualized_volatility
+
+# Example
+portfolio_returns = [0.005, -0.002, 0.01]
+vol = calculate_volatility(portfolio_returns)
+print(f"Annualized Volatility: {vol:.2%}")
+                </code></pre>
+                <aside class="notes">
+                    Here's a glimpse into our tech stack. This Python function is a fundamental part of our risk management models. It takes daily returns, calculates standard deviation, and annualizes it.
+                </aside>
+            </section>
+
+            <section>
+                <h2>Key Financial Metrics (EPS)</h2>
+                <p>We closely monitor fundamental formulas like Earnings Per Share (EPS) to measure profitability.</p>
+                <p>
+                    The formula for Basic EPS is:
+                    $$
+                    \text{EPS} = \frac{\text{Net Income} - \text{Preferred Dividends}}{\text{Weighted Average Shares Outstanding}}
+                    $$
+                </p>
+                <aside class="notes">
+                    Let's quickly review the formula for Earnings Per Share. It's a core metric that shows the company's profitability on a per-share basis.
+                </aside>
+            </section>
+
+            <section>
+                <h2>Q&A</h2>
+                <h3>Thank You</h3>
+                <p>
+                    Contact: <a href="mailto:23ds3000170@ds.study.iitm.ac.in">23ds3000170@ds.study.iitm.ac.in</a>
+                </p>
+                <aside class="notes">
+                    That concludes the formal presentation. I'd now like to open the floor for any questions.
+                </aside>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/plugin/notes/notes.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/plugin/markdown/markdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/plugin/highlight/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/plugin/math/math.min.js"></script>
+    <script>
+        // Initialize RevealJS and enable plugins
+        Reveal.initialize({
+            hash: true,
+            plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
+        });
+    </script>
+</body>
+</html>
